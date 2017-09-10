@@ -19,6 +19,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
     remotes \
     xgboost \
     Iso \
+    Matrix \
     redshiftTools
 
 ## Notes: Above install2.r uses --deps TRUE to get Suggests dependencies as well,
