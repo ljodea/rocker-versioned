@@ -26,6 +26,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
     odbc \
     config \
     stringr \
+    lubridate \
     stringdist
 
 ## Notes: Above install2.r uses --deps TRUE to get Suggests dependencies as well,
